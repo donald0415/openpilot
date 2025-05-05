@@ -12,7 +12,7 @@ TRAJECTORY_SIZE = 33
 # model path is in the frame of the camera
 # 如果您發現它總是靠一側行駛，為什麼不修理它呢？
 # 您需要做的就是調整 openpilot/selfdrive/controls/lib/lane_planner.py 中的 path_offset。
-PATH_OFFSET = 0.00
+PATH_OFFSET = -0.05
 CAMERA_OFFSET = 0.04
 
 
